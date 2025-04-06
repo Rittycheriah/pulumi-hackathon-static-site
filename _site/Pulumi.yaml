@@ -1,0 +1,11 @@
+name: pulumi-hackathon-static-site
+description: A Python program to deploy a static website on Google Cloud
+runtime:
+  name: python
+  options:
+    toolchain: poetry
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: static-website-gcp-python
