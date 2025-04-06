@@ -66,3 +66,13 @@ pulumi up
 2) Once I got Jekyll rolling, it was a matter of `jekyll new` and then `jekyll serve` to make sure that my new site was at least functional.
 
 3) I decided I wanted to use another theme instead of the default, so I went down a fun rabbit trail to figure out a new hacker Jekyll theme... but the Ruby dependencies between Jekyll and github-pages gems to preview were not working together nicely. So, I went back to the simpler clean-blog theme as suggested by their official docs.
+
+## Downsides and admittedly problems with the current deployment:
+* For all my desire to get something more pretty up, the way that the static site deployment works, it is _not_ loading any of the scss or js files. Thus, things are pretty ugly. Nevertheless, you can see the actual site here: https://storage.googleapis.com/bucket-e3362f3/index.html
+
+Were I to go back and actually make this a personal blog site for myself, I would:
+* Host this on a CloudRun instance
+* Create a vanity url DNS address to forward to this backend
+* Write more content and add photos.
+
+Nevertheless, I had fun playing with these technologies and remembered how much just building stuff is fun. Thanks for the opportunity.
