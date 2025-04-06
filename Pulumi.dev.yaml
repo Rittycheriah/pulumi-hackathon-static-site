@@ -1,5 +1,5 @@
 config:
   gcp:project: golden-attic-455816-d4
-  pulumi-hackathon-static-site:errorDocument: error.html
+  pulumi-hackathon-static-site:errorDocument: 404.html
   pulumi-hackathon-static-site:indexDocument: index.html
-  pulumi-hackathon-static-site:path: ./rsi-dev
+  pulumi-hackathon-static-site:path: ./rsi-dev/_site
